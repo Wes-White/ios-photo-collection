@@ -14,7 +14,7 @@ class PhotoDetailViewController: UIViewController {
     @IBOutlet weak var addPhotoTextField: UITextField!
     
     
-    var photoController = PhotoController?
+    var photoController: PhotoController?
     var photo: Photo?
     var themeHelper: ThemeHelper?
     
